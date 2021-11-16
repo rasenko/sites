@@ -6,7 +6,7 @@ html {
     box-sizing: border-box;
 }
   
-a,a:hover,a:click, a:visited{
+a,a:hover, a:visited{
     border:none;
     outline:none;
     text-decoration:none;
@@ -129,13 +129,13 @@ body {
 }
 
 .modal .social-icons {
-    top: calc (100vh - 70px);
     left: 0px;
 }
 
 .modal .social-buttons {
     text-align: center;
 }
+
 .modal .social-button {
     display: inline-block;
     margin-left: 20px;
@@ -168,7 +168,7 @@ body {
 .my-name {
     font-weight: 900;
     font-size: 1.7778rem;
-    text-decoration: upp;
+    text-transform: uppercase;
       
 }
 
@@ -415,9 +415,11 @@ footer {
     color: #73808D;
 }
 
-.social-button .footer-button a: hover {
+.footer-button a:hover {
     color: #000;
 }
+
+
 
 
 
